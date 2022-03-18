@@ -7,9 +7,26 @@ footer {
 }
 
 .email {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, .7);
     font-weight: 200;
-    font-size: .7rem;
+    font-size: .8rem;
     text-align: center;
     margin: 1rem;
+    margin-top: 0;
+}
+
+.imagens-footer {
+    display: flex;
+    margin: 2rem;
+    margin-bottom: .2rem;
+}
+
+.linkedin {
+    width: 2rem;
+    margin: .5rem;
+}
+
+.git {
+    width: 1.6rem;
+    margin-bottom: 0;
 }
