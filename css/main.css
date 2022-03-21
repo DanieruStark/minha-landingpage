@@ -64,3 +64,36 @@ main {
     text-align: center;
     line-height: 1rem;
 }
+
+.mold-perfil {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.perfil-img {
+    width: 34.5%;
+    border: .4rem solid;
+    border-color: #2965ff;
+    border-radius: 8px;
+}
+
+.logo-alura {
+    font-family: 'Dosis', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 1.5rem;
+    margin: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.aviso {
+    color: rgba(255, 255, 255, .6);
+    font-weight: 200;
+    font-size: .75rem;
+    text-align: center;
+    line-height: 1rem;
+    margin-top: 1rem;
+}
