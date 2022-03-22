@@ -6,6 +6,11 @@ header{
     border-bottom: 0.1rem solid white;
 }
 
+a {
+    text-decoration: none;
+    cursor: default;
+}
+
 .menu{
     display: flex;
     flex-direction: row;
@@ -22,12 +27,34 @@ header{
 }
 
 .li {
-    margin: .5rem;
-    padding: .5rem;
+    margin: 1rem;
+    margin-bottom: 0;
+    padding: 1rem;
+    border-radius: 6px;
+    transition: background-color 300ms ease-out;
 }
 
 .menu-link {
     color: rgba(255, 255, 255, 1);
     font-weight: 400;
     font-size: 1.2rem;
+}
+
+@media screen and (min-width: 820px){
+    header {
+       margin: 0 5%;
+    }
+
+    .menu {
+        margin-top: 0;
+    }
+
+    .li:hover {
+        background-color: rgba(255, 255, 255, .2);
+        border-radius: 6px;
+        transition: background-color 300ms ease-out;
+        
+    }
+  
+    
 }

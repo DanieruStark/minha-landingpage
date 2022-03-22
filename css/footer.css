@@ -22,11 +22,36 @@ footer {
 }
 
 .linkedin {
-    width: 2rem;
-    margin: .5rem;
+    width: 2.5rem;
+    transition: background-color 300ms ease-out;
 }
 
 .git {
-    width: 1.6rem;
-    margin-bottom: 0;
+    width: 2.5rem;
+    transition: background-color 300ms ease-out;
+}
+
+@media screen and (min-width: 820px){
+    footer {
+        margin: 1% 5%;
+    }
+
+    .imagens-footer {
+        margin: .7rem;
+        margin-bottom: .2rem;
+    }
+
+    .linkedin:hover {
+        width: 2.8rem;
+        transition: background-color 300ms ease-out;
+    }
+
+    .git:hover {
+        width: 2.8rem;
+        transition: background-color 300ms ease-out;
+    }
+
+    .email {
+        margin-top: 0.5rem;
+    }
 }
