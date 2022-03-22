@@ -100,7 +100,7 @@ main {
 
 @media screen and (min-width: 820px){
     main {
-        margin: 1% 5%;
+        margin: 5%;
     }
 
     .linguagens {
@@ -122,5 +122,9 @@ main {
     .cta-button:hover {
         padding: 1rem;
         transition: background-color 300ms ease-out;
+    }
+
+    .perfil-img {
+        width: 18%;
     }
 }

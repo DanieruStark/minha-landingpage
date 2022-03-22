@@ -42,7 +42,7 @@ a {
 
 @media screen and (min-width: 820px){
     header {
-       margin: 0 5%;
+       margin: 5%;
     }
 
     .menu {
