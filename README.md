@@ -19,4 +19,4 @@ Essa página pode sofrer alterações a medida que eu ver a necessidade de torn�
 você pode vizualizar a pagina de duas maneiras:
 
 - Fazer o download do projeto no seu computador e dentro da pasta do projeto clicar no arquivo `index.html`;
--  Você pode vizualizar essa página através do **[GitHub Pages]()**
+-  Você pode vizualizar essa página através do **[GitHub Pages](https://danierustark.github.io/minha-landingpage/)**
