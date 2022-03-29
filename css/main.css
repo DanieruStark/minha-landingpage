@@ -215,6 +215,7 @@ main {
 
     .soft-perfil {
         display: flex;
+        flex-direction: row;
         align-items: center;
     }
 
@@ -249,6 +250,7 @@ main {
     }
 
     .web-designer {
+        display: flex;
         width: 20%;
         margin-right: 5rem;
     }
