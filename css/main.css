@@ -181,6 +181,11 @@ main {
 .mostragem {
     width: 100%;
     display: flex;
+    flex-direction: column;
+}
+
+.exemplos {
+    margin: 1rem;
 }
 
 .exemplos-img {
