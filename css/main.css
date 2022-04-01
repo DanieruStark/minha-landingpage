@@ -286,11 +286,12 @@ main {
 
     .mostragem {
         width: 100%;
+        align-items: center;
         display: flex;
-        flex-direction: row;
     }
     
     .exemplos {
+        width: 65%;
         margin: 1rem;
     }
     
